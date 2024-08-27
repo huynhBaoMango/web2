@@ -1,0 +1,209 @@
+main{
+    background-image: url(../img/gradient-black-background-with-wavy-lines_23-2149157312.webp);
+    background-size: cover;
+    color: white;
+}
+.container1{
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    height: max-content;
+    background-image: linear-gradient(to right, rgb(58, 58, 58), rgb(232, 9, 9) , rgb(0, 81, 255));
+}
+.container1>.top{
+    display: flex;
+    flex-direction: row;
+    height: 204px;
+    width: 100%;
+}
+.container1>.top>.left{
+    width: 70%;
+}
+.avt{
+    width: 164px;
+    height: 164px;
+    border: 2px solid aqua;
+    float: left;
+    margin-right: 20px;
+}
+.flag{
+    width: 20px;
+    height: 14px;
+}
+.container1>.top>.right{
+    width: 30%;
+}
+.container1>.top>.right h4{
+    width: fit-content;
+    float: left;
+}
+.container1>.top>.right .so9{
+    border: 1.5px solid white;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 70%;
+    border-radius: 50px;
+}
+.container1>.top>.right .service{
+    background-color: rgba(0, 0, 0, 0.404);
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+.container1>.top>.right .service img{
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+    float: left;
+}
+.container1>.top>.right .service p{
+    margin: 0;
+}
+.container1>.top>.right span{
+    padding: 5px 10px;
+    background-color: rgba(240, 248, 255, 0.288);
+    margin-top: 10px;
+    float: left;
+}
+.container1>.mid{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.container1>.mid .recent{
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 3px 10px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.container1>.mid .recent h5{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.content{
+    width: 69%;
+}
+.gamecard{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+.gamecard img{
+    width: 25%;
+    height: 100%;
+    margin-right: 10px;
+}
+.gamecard h4{
+    width: 100%;
+    height: 100%;
+    font-weight: lighter;
+    text-align: left;
+}
+.gamecard p{
+    width: 100%;
+    position: relative;
+    bottom: -25px;
+    right: 0px;
+    text-align: right;
+    font-size: 12px;
+    color: gray;
+}
+.cmthd{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+.cmtbot{
+    width: 100%;
+    display: flex;
+}
+.cmt img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid aqua;
+    float: left;
+    margin-right: 22px;
+}
+.addcmt{
+    width: 90.6%;
+    height: 50px;
+    background-color: #0B0B0B;
+    padding: 5px 10px;
+    color: gray;
+}
+.info{
+    float: left;
+    width: 29%;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 3px 10px;
+    padding-top: 6px;
+}
+.info p{
+    font-size: 14px;
+}
+.person{
+    color: rgb(0, 200, 255);
+}
+.person img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+    border: 2px solid aqua;
+}
+.person p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.person em{
+    font-size: 12px;
+}
+@media  screen and (max-width: 990px) {
+    .container1{
+        width: 100%;
+    }
+    
+}
+@media  screen and (max-width: 660px) {
+    .container1>.top{
+        flex-direction: column;
+        height: fit-content;
+        padding-left: 30px;
+    }
+    .container1>.top .left{
+        width: 100%;
+    }
+    .container1>.top .right{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .container1>.top .right .service{
+        width: 60%;
+    }
+    .container1>.top .right span{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .container1>.mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+}
